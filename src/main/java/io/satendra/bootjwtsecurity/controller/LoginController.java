@@ -7,15 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class LoginController {
-
+public class LoginController
+{
     @GetMapping("/test")
-    Collection<String> getNames(){
+    Collection<String> getNames()
+    {
 
-        return Arrays.asList("satendra","test name");
+        return Arrays.asList("satendra", "test name");
     }
-
-
-
-
 }
